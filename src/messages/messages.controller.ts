@@ -5,7 +5,7 @@ import { CreateMessageDto } from './dtos/create-message.dto';
 export class MessagesController {
   @Get()
   listMessages() {
-    console.log('he');
+    console.log('hello');
   }
 
   @Post()
